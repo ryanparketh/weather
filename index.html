@@ -27,8 +27,7 @@
             <!-- use the api to recall the weather in the city selected -->
             <div class="col-12 col-md-8 col-xl-9">
                 <h3>Today's Weather</h3>
-                <h5>9/12 columns on large screens, 8/12 columns on medium screens, 12/12 (full-width) on small
-                    screens</h5>
+                <h5 id="date">date: </h5>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis temporibus facilis
                     cumque
@@ -38,11 +37,16 @@
             </div>
 
             <div class="col-12 col-md-4 col-xl-3">
-                <h3>Search for a City:</h3>
-                <form action="" class="enter-city">
-                    <input type="text" placeholder="Enter City" id='input-city' />
-                    <button type="submit" id='search-btn'>Search</button>
-                  </form>
+                <div class="search-title">
+                    <h4>Search for a City:</h4>
+                    <form action="" class="enter-city" id="search">
+                        <input type="text" placeholder="Enter City" id='input-city' />
+                        <button type="submit" id='search-btn'>Search</button>
+                    </form>
+                </div>
+                <div id="search-history">
+
+                </div>
             </div>
         </div>
     </section>
@@ -63,5 +67,7 @@
 
         </div>
     </section>
-
+    <script src="./script.js"></script>
 </body>
+
+</html>

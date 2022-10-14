@@ -25,7 +25,7 @@
 
 .enter-city input {
     width: 100%;
-    flex: 1;
+    /* flex: 1; */
     border: 1;
     border-radius: 10px;
     padding: 7px 5px;
