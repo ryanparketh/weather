@@ -22,7 +22,7 @@ function addToHistory(city) {
 // displaying the date
 function displayWeather(city, jsonData) {
     dateEl = document.getElementById('date');
-    dateEl.innerText = jsonData.list[0].dt_txt;
+    dateEl.innerText = jsonData.list[0].dt_txt.slice(0,10);
 }
 
 // fetching the weather in the city
