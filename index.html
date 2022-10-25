@@ -22,14 +22,14 @@
         <!-- Use row class to create row in the container -->
         <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
-                <h3>Today's Weather</h3>
-                <h5 id="date">date: </h5>
+                <h3>Today's Weather in  <span id="city-search"></span></h3>
+                <h5 id="date"></h5>
                 <img src="" id="current-icon" alt=""/>
              
                 <p id="current-temp"></p>
                 <p id="humidity"></p>
                 <p id="wind"></p>
-                
+
             </div>
 
             <div class="col-12 col-md-4 col-xl-3">
@@ -40,7 +40,8 @@
                         <button type="submit" id='search-btn'>Search</button>
                     </form>
                 </div>
-                <div id="search-history">
+                <div class='list-group' id="search-history">
+
 
                 </div>
             </div>
@@ -52,7 +53,53 @@
     <h1>5-Day Forcast:</h1>
     <section class="container">
         <div class="row" id="five-day">
+            <!-- append here -->
+         <div class="col-md-2">
+            <h5 id="day1-date"></h5>
+            <img src="" id="day1-icon" alt=""/>
+             
+                <p id="day1-temp"></p>
+                <p id="day1-humidity"></p>
+                <p id="day1-wind"></p>
 
+         </div>
+         <div class="col-md-2">
+            <h5 id="day2-date"></h5>
+            <img src="" id="day2-icon" alt=""/>
+             
+                <p id="day2-temp"></p>
+                <p id="day2-humidity"></p>
+                <p id="day2-wind"></p>
+
+         </div>
+         <div class="col-md-2">
+            <h5 id="day3-date"></h5>
+            <img src="" id="day3-icon" alt=""/>
+             
+                <p id="day3-temp"></p>
+                <p id="day3-humidity"></p>
+                <p id="day3-wind"></p>
+
+         </div>
+         <div class="col-md-2">
+            <h5 id="day4-date"></h5>
+            <img src="" id="day4-icon" alt=""/>
+             
+                <p id="day4-temp"></p>
+                <p id="day4-humidity"></p>
+                <p id="day4-wind"></p>
+
+         </div>
+         <div class="col-md-2">
+            <h5 id="day5-date"></h5>
+            <img src="" id="day5-icon" alt=""/>
+             
+                <p id="day5-temp"></p>
+                <p id="day5-humidity"></p>
+                <p id="day5-wind"></p>
+
+         </div>
+                
         </div>
 
         </div>
