@@ -17,6 +17,7 @@ function weatherSearchHandler(event) {
     console.log('city= ', city);
     fetchGeoCoordinates(city);
 }
+// displaying the search history
 function displaySearchHistory(){
     searchHistoryDiv.innerHTML = '';
     for(let i = searchHistory.length - 1; i >= 0; i--){
@@ -28,7 +29,7 @@ function displaySearchHistory(){
         searchHistoryDiv.append(btnEl);
     }
 }
-
+// search history
 function addToHistory(city) {
     // tbd
     if(searchHistory.indexOf(city) !== -1){
