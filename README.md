@@ -6,7 +6,7 @@ This is a weather application that allows the user to search for a city and get 
 
 
 ## Live Website
-[link to live website]()
+[link to live website](https://ryanparketh.github.io/weather/)
 
 
 ## Screenshot 
